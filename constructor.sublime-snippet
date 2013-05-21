@@ -1,17 +1,21 @@
 <snippet>
     <content><![CDATA[
-var ${1:constructorName} = (function(global, undefined) {
+var ${1:ConstructorName} = (function(global, undefined) {
     'use strict';
 
-    function ${1:constructorName}(${2:args}) {
+    function ${1:ConstructorName}(${2:args}) {
+        // enforces new
+        if (!(this instanceof ${1:ConstructorName})) {
+            return new ${1:ConstructorName}();
+        }
         ${3:// constructor body}
     }
 
-    ${4:${1:constructorName}.prototype.${5:methodName} = function(${6:args}) {
+    ${4:${1:ConstructorName}.prototype.${5:methodName} = function(${6:args}) {
         ${7:// method body}
     \}}
 
-    return ${1:constructorName};
+    return ${1:ConstructorName};
 
 })(this);]]></content>
     <tabTrigger><![CDATA[constructor]]></tabTrigger>
