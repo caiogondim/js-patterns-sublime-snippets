@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+(function () {
+    $1
+}());]]></content>
+    <tabTrigger><![CDATA[ifun]]></tabTrigger>
+    <scope>source.js</scope>
+    <description>immediate function</description>
+</snippet>
