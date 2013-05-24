@@ -103,7 +103,7 @@ var moduleName = (function() {
 
   return moduleName;
 
-})(this);
+})();
 ```
 
 Reference:
