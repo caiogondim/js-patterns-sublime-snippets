@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-var ${1:moduleName} = (function(global, undefined) {
+var ${1:moduleName} = (function() {
 	'use strict';
 
 	var ${1:moduleName} = {
@@ -11,7 +11,7 @@ var ${1:moduleName} = (function(global, undefined) {
 
 	return ${1:moduleName};
 
-})(this);]]></content>
+})();]]></content>
 	<tabTrigger><![CDATA[module]]></tabTrigger>
 	<scope>source.js</scope>
 	<description>JS module pattern</description>

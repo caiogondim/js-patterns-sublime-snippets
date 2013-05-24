@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-var ${1:ConstructorName} = (function(global, undefined) {
+var ${1:ConstructorName} = (function() {
     'use strict';
 
     function ${1:ConstructorName}(${2:args}) {
@@ -17,7 +17,7 @@ var ${1:ConstructorName} = (function(global, undefined) {
 
     return ${1:ConstructorName};
 
-})(this);]]></content>
+})();]]></content>
     <tabTrigger><![CDATA[constructor]]></tabTrigger>
     <scope>source.js</scope>
     <description>JS constructor pattern</description>

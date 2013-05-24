@@ -1,9 +1,11 @@
 <snippet>
-    <content><![CDATA[
+		<content><![CDATA[
 (function () {
-    $1
+	'use strict';
+
+	$1
 }());]]></content>
-    <tabTrigger><![CDATA[ifun]]></tabTrigger>
-    <scope>source.js</scope>
-    <description>immediate function</description>
+	<tabTrigger><![CDATA[ifun]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>immediate function</description>
 </snippet>
