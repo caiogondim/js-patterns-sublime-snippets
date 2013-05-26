@@ -20,7 +20,7 @@ eligendi maiores illo ea atque dolor reprehenderit ducimus!
 
 ## Immediate function
 
-**trigger**: ifun + TAB
+**trigger**: ifun⇥
 
 To keep the global scope clean and to use strict mode in a controlled
 enviroment, without triggering it in the global scope.
@@ -37,7 +37,7 @@ Reference:
 
 ## For in
 
-**trigger**: forin + TAB
+**trigger**: forin⇥
 
 For-in loops in JavaScript will iterate over new properties added to the
 prototype chain of the object we are iterating.
@@ -58,7 +58,7 @@ Reference:
 
 ## Constructor pattern
 
-**trigger**: constructor + TAB
+**trigger**: constructor⇥
 
 That constructor pattern enforces the use of `new`, even if you call the
 constructor like a function. In JavaScript, if the `new` keyword is forgotten,
@@ -95,7 +95,7 @@ Reference:
 
 ## Module pattern
 
-**trigger**: module + TAB
+**trigger**: module⇥
 
 A simple module pattern. Uses strict mode and suggest the use of a `init`
 function for kickoff. Also possible to define some "private" methods and
