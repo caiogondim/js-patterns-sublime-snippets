@@ -1,9 +1,22 @@
 # JavaScript patterns snippets
 
+<img
+  src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/master/js-patterns-logo.png"
+  alt="JS Patterns logo" align="right"
+/>
+
 Snippets for [Sublime Text](http://www.sublimetext.com/) with **good solutions
 for regular situations** in JavaScript.
 
 Work in progress. Soon available in **Package Control**.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, est,
+optio cupiditate soluta temporibus minus repellendus cumque placeat blanditiis
+nisi velit rem ipsum repudiandae quos qui voluptatem perspiciatis quidem amet.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, minus ipsa
+dolore quis iste dolorem esse vitae voluptatum sapiente voluptate. Eius, veniam
+eligendi maiores illo ea atque dolor reprehenderit ducimus!
 
 ## Immediate function
 
