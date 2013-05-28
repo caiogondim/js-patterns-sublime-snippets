@@ -1,4 +1,4 @@
-# JavaScript patterns snippets
+# JavaScript Patterns snippets
 
 <img
   src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/master/js-patterns-logo.png"
@@ -6,17 +6,21 @@
 />
 
 Snippets for [Sublime Text](http://www.sublimetext.com/) with **good solutions
-for regular situations** in JavaScript.
+for regular problems** in JavaScript.
 
-Work in progress. Soon available in **Package Control**.
+> In software engineering, a design pattern is a general reusable
+> solution to a commonly occurring problem within a given context in software
+> design. A design pattern is not a finished design that can be transformed
+> directly into source or machine code
+>
+> – Wikipedia
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, est,
-optio cupiditate soluta temporibus minus repellendus cumque placeat blanditiis
-nisi velit rem ipsum repudiandae quos qui voluptatem perspiciatis quidem amet.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, minus ipsa
-dolore quis iste dolorem esse vitae voluptatum sapiente voluptate. Eius, veniam
-eligendi maiores illo ea atque dolor reprehenderit ducimus!
+To install through Package Control, search for **JavaScript Patterns**. If you
+still don't have Package Control in Sublime Text,
+[go get it](http://wbond.net/sublime_packages/package_control/installation).
+If you insist to not install it, you can download the package and put it manually
+inside your Pacakages directory. It should work but will not update
+automatically.
 
 ## Immediate function
 
@@ -63,7 +67,7 @@ Reference:
 A faster way to write a `for` loop. It caches the array size, so we don't need
 to recalculate the size at every iteration.
 
-```javacript
+```javascript
 for (var i = arrayName.length ; i-- ; ) {
   // code
 }
