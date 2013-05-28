@@ -56,6 +56,22 @@ Reference:
 - [JavaScript Patterns, by Stoyan Stefanov](http://shop.oreilly.com/product/9780596806767.do)
 - [The Essentials of Writing High Quality JavaScript](http://net.tutsplus.com/tutorials/javascript-ajax/the-essentials-of-writing-high-quality-javascript/)
 
+## Improved for loop
+
+**trigger:** ifor⇥
+
+A faster way to write a `for` loop. It caches the array size, so we don't need
+to recalculate the size at every iteration.
+
+```javacript
+for (var i = arrayName.length ; i-- ; ) {
+  // code
+}
+```
+
+Reference:
+- [Browser Diet](http://browserdiet.com/#cache-array-lengths)
+
 ## Constructor pattern
 
 **trigger**: constructor⇥
