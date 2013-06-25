@@ -169,3 +169,32 @@ var expensiveFunction = (function() {
   return funcMemoized;
 }());
 ```
+
+## Throttle
+
+The function will be called no more than one time every X seconds, even if you
+call it repeatedly. Useful for some DOM events like the resize event on the
+window.
+
+```javascript
+var onResize = (function () {
+  'use strict';
+
+  var timeWindow = 200; // time in ms
+  var lastExecution = new Date((new Date()).getTime() - timeWindow);
+
+  var onResize = function (args) {
+     // your code goes here
+  };
+
+  return function() {
+    if ((lastExecution.getTime() + timeWindow) <= (new Date()).getTime()) {
+      lastExecution = new Date();
+      return onResize.apply(this, arguments);
+    }
+  };
+})();
+```
+
+Reference:
+- [Underscore.js](http://underscorejs.org/docs/underscore.html#section-64)
