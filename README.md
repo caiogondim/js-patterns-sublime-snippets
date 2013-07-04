@@ -22,6 +22,7 @@ If you insist to not install it, you can download the package and put it manuall
 inside your Pacakages directory. It should work but will not update
 automatically.
 
+
 ## Immediate function
 
 **trigger**: ifun⇥
@@ -38,6 +39,7 @@ enviroment, without triggering it in the global scope.
 
 Reference:
 - [StackOverflow: Immediate functions JavaScript](http://stackoverflow.com/questions/13364312/immediate-functions-javascript)
+
 
 ## For in
 
@@ -60,6 +62,7 @@ Reference:
 - [JavaScript Patterns, by Stoyan Stefanov](http://shop.oreilly.com/product/9780596806767.do)
 - [The Essentials of Writing High Quality JavaScript](http://net.tutsplus.com/tutorials/javascript-ajax/the-essentials-of-writing-high-quality-javascript/)
 
+
 ## Improved for loop
 
 **trigger:** ifor⇥
@@ -75,6 +78,7 @@ for (var i = arrayName.length ; i-- ; ) {
 
 Reference:
 - [Browser Diet](http://browserdiet.com/#cache-array-lengths)
+
 
 ## Constructor pattern
 
@@ -113,6 +117,7 @@ var ConstructorName = (function() {
 Reference:
 - [Object Creation patterns](http://www.jspatterns.com/category/patterns/object-creation/)
 
+
 ## Module pattern
 
 **trigger**: module⇥
@@ -141,6 +146,7 @@ var moduleName = (function() {
 
 Reference:
 - [JavaScript Module Pattern: In-Depth](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html)
+
 
 ## Memoization
 
@@ -198,3 +204,16 @@ var onResize = (function () {
 
 Reference:
 - [Underscore.js](http://underscorejs.org/docs/underscore.html#section-64)
+
+
+## Support
+
+All the snippets should run in:
+- Chrome
+- Safari
+- Firefox
+- Internet Explorer 8.0+
+- Opera 15+
+- Node.js 0.10+
+
+If you found some error, please open an issue or send a pull request.
