@@ -17,7 +17,7 @@ var ${1:ConstructorName} = (function() {
 
     return ${1:ConstructorName};
 
-})();]]></content>
+}());]]></content>
     <tabTrigger><![CDATA[constructor]]></tabTrigger>
     <scope>source.js</scope>
     <description>JS constructor pattern</description>

@@ -16,7 +16,7 @@ var ${1:functionName} = (function () {
 			return ${1:functionName}.apply(this, arguments);
 		}
 	};
-})();]]></content>
+}());]]></content>
   <tabTrigger><![CDATA[throttle]]></tabTrigger>
   <scope>source.js</scope>
   <description>Throttled function</description>

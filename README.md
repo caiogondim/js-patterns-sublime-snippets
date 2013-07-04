@@ -111,7 +111,7 @@ var ConstructorName = (function() {
 
   return ConstructorName;
 
-})();
+}());
 ```
 
 Reference:
@@ -141,7 +141,7 @@ var moduleName = (function() {
 
   return moduleName;
 
-})();
+}());
 ```
 
 Reference:
@@ -199,7 +199,7 @@ var onResize = (function () {
       return onResize.apply(this, arguments);
     }
   };
-})();
+}());
 ```
 
 Reference:
