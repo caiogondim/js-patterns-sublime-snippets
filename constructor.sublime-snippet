@@ -6,7 +6,7 @@ var ${1:ConstructorName} = (function() {
     function ${1:ConstructorName}(${2:args}) {
         // enforces new
         if (!(this instanceof ${1:ConstructorName})) {
-            return new ${1:ConstructorName}();
+            return new ${1:ConstructorName}(${2:args});
         }
         ${3:// constructor body}
     }
