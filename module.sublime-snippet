@@ -4,7 +4,7 @@ var ${1:moduleName} = (function() {
 	'use strict';
 
 	var ${1:moduleName} = {
-		init: {
+		init: function() {
 			$2
 		}
 	}
