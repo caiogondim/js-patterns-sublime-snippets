@@ -206,6 +206,40 @@ Reference:
 - [Underscore.js](http://underscorejs.org/docs/underscore.html#section-64)
 
 
+## Debounce
+
+The function will postpone its execution until X miliseconds have elapsed since
+the last call. Useful for some events that you want to happen after some time
+after the last interaction, like an autocomplete or a double-click in a submit
+button.
+
+```javascript
+var autocomplete = (function () {
+  'use strict';
+
+  var timeWindow = 500; // time in ms
+  var timeout;
+
+  var autocomplete = function (arg1, arg2) {
+    // your code goes here
+  };
+
+  return function() {
+    var context = this;
+    var args = arguments;
+    clearTimeout(timeout);
+    timeout = setTimeout(function(){
+      autocomplete.apply(context, args);
+    }, timeWindow);
+  };
+}());
+```
+
+Reference:
+- [Underscore.js](http://davidwalsh.name/function-debounce)
+- [David Walsh](http://davidwalsh.name/function-debounce)
+
+
 ## Support
 
 All the snippets should run in:

@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+var ${1:functionName} = (function () {
+	'use strict';
+
+	var timeWindow = ${2:500}; // time in ms
+	var timeout;
+
+	var ${1:functionName} = function (${3:args}) {
+		${4: // your code goes here}
+	};
+
+	return function() {
+		var context = this;
+    var args = arguments;
+    clearTimeout(timeout);
+    timeout = setTimeout(function(){
+      ${1:functionName}.apply(context, args);
+    }, timeWindow);
+	};
+}());]]></content>
+  <tabTrigger><![CDATA[debounce]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Debounced function</description>
+</snippet>
