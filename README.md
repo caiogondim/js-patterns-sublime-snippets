@@ -23,6 +23,16 @@ inside your Pacakages directory. It should work but will not update
 automatically.
 
 
+## Snippets
+
+Some JS Patterns snippets in the wild.
+
+<img
+  src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/master/in-the-wild.gif"
+  alt="In the wild"
+/>
+
+
 ## Immediate function
 
 **trigger**: ifun⇥
