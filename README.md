@@ -1,7 +1,7 @@
 # JavaScript Patterns snippets
 
 <img
-  src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/master/js-patterns-logo.png"
+  src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/assets/js-patterns-logo.png"
   alt="JS Patterns logo" align="right"
 />
 
@@ -28,7 +28,7 @@ automatically.
 Some JS Patterns snippets in the wild.
 
 <img
-  src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/master/in-the-wild.gif"
+  src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/assets/in-the-wild.gif"
   alt="In the wild"
 />
 
