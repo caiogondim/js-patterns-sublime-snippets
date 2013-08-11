@@ -80,8 +80,8 @@ A faster way to write a `for` loop. It caches the array size, so we don't need
 to recalculate the size at every iteration.
 
 ```javascript
-for (var i = arrayName.length ; i-- ; ) {
-  // code
+for (i = 0, len = arr.length; i < len; i++) {
+  // array length is calculated only 1 time and then stored
 }
 ```
 

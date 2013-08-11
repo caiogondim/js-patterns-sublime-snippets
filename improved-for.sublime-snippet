@@ -1,9 +1,9 @@
 <snippet>
-    <content><![CDATA[
-for (var i = ${1:arrayName}.length ; i-- ; ) {
-    ${2:$1[i]}$3
+		<content><![CDATA[
+for (var i = 0, len = ${1:arr}.length; i < len; i++) {
+	${2:$1[i]}$3
 }]]></content>
-    <tabTrigger><![CDATA[ifor]]></tabTrigger>
-    <scope>source.js</scope>
-    <description>improved for loop</description>
+		<tabTrigger><![CDATA[ifor]]></tabTrigger>
+		<scope>source.js</scope>
+		<description>improved for loop</description>
 </snippet>
