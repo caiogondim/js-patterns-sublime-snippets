@@ -127,7 +127,7 @@ Reference:
 - [Object Creation patterns](http://www.jspatterns.com/category/patterns/object-creation/)
 
 
-## Module pattern
+## Module
 
 **trigger**: module⇥
 
@@ -156,6 +156,36 @@ var moduleName = (function() {
 Reference:
 - [JavaScript Module Pattern: In-Depth](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html)
 
+
+## Revealing module
+
+**trigger**: rmodule⇥
+
+Some might say it's a less verbose and more organized way to define a module.
+It declares all the variables and functions in the private scope and returns
+an object with references to what is going to be public.
+
+```javascript
+var revealingModule = (function(){
+  'use strict';
+
+  var privateVar = 'foo';
+  var publicVar = 'bar';
+
+  function privateFunction() {
+
+  }
+
+  function publicFunction() {
+
+  }
+
+  return {
+    publicVar: publicVar,
+    publicFunction: publicFunction
+  };
+}());
+```
 
 ## Memoization
 
