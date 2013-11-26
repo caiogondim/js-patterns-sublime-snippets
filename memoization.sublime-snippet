@@ -15,7 +15,7 @@ var ${1:functionName} = (function() {
 		}
 
 		return funcMemoized.cache[cacheKey];
-	}
+	};
 
 	funcMemoized.cache = {};
 
