@@ -13,7 +13,7 @@ var ${1:ConstructorName} = (function() {
 
     ${4:${1:ConstructorName}.prototype.${5:methodName} = function(${6:args}) {
         ${7:// method body}
-    \}}
+    \}};
 
     return ${1:ConstructorName};
 

@@ -7,7 +7,7 @@ var ${1:moduleName} = (function() {
 		init: {
 			$2
 		}
-	}
+	};
 
 	return ${1:moduleName};
 
