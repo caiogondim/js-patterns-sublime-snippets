@@ -1,0 +1,41 @@
+<snippet>
+    <content><![CDATA[
+var ${1:constructorName} = (function() {
+    'use strict';
+
+    var ${2:instanceName};
+
+    function ${3:initialisingMethod}(${4:args}) {
+        //Singleton
+
+        function ${5:privateMethodName}(${6:args}) {
+
+        }
+
+        return {
+            ${7:publicMethodName}: function() {
+
+            }
+        };
+
+    };
+
+    return {
+        //Get the singleton instance if one exists
+        //or create one if it doesn't
+        getInstance: function() {
+
+            if(!${2:instanceName}) {
+                ${2:instanceName} = ${3:initialisingMethod}(${4:args});
+            }
+
+            return ${2:instanceName};
+        }
+    };
+
+
+}());]]></content>
+    <tabTrigger><![CDATA[constructor]]></tabTrigger>
+    <scope>source.js</scope>
+    <description>JS singleton pattern</description>
+</snippet>

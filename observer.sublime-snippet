@@ -1,0 +1,100 @@
+<snippet>
+    <content><![CDATA[
+function ${1:ObserverList}(){
+  this.observerList = [];
+}
+
+${1:ObserverList}.prototype.Add = function( obj ){
+  return this.observerList.push( obj );
+};
+
+${1:ObserverList}.prototype.Empty = function(){
+  this.observerList = [];
+};
+
+${1:ObserverList}.prototype.Count = function(){
+  return this.observerList.length;
+};
+
+
+${1:ObserverList}.prototype.Get = function( index ){
+  if( index > -1 && index < this.observerList.length ){
+    return this.observerList[ index ];
+  }
+};
+
+${1:ObserverList}.prototype.Insert = function( obj, index ){
+  var pointer = -1;
+
+  if( index === 0 ){
+    this.observerList.unshift( obj );
+    pointer = index;
+  }else if( index === this.observerList.length ){
+    this.observerList.push( obj );
+    pointer = index;
+  }
+
+  return pointer;
+};
+
+${1:ObserverList}.prototype.IndexOf = function( obj, startIndex ){
+  var i = startIndex, pointer = -1;
+
+  while( i < this.observerList.length ){
+    if( this.observerList[i] === obj ){
+      pointer = i;
+    }
+    i++;
+  }
+
+  return pointer;
+};
+
+
+${1:ObserverList}.prototype.RemoveAt = function( index ){
+  if( index === 0 ){
+    this.observerList.shift();
+  }else if( index === this.observerList.length -1 ){
+    this.observerList.pop();
+  }
+};
+
+
+// Extend an object with an extension
+function extend( extension, obj ){
+  for ( var key in extension ){
+    obj[key] = extension[key];
+  }
+}
+
+function ${2:Subject}(){
+  this.observers = new ObserverList();
+}
+
+${2:Subject}.prototype.AddObserver = function( observer ){
+  this.observers.Add( observer );
+};  
+
+${2:Subject}.prototype.RemoveObserver = function( observer ){
+  this.observers.RemoveAt( this.observers.IndexOf( observer, 0 ) );
+};  
+
+${2:Subject}.prototype.Notify = function( context ){
+  var observerCount = this.observers.Count();
+  for(var i=0; i < observerCount; i++){
+    this.observers.Get(i).Update( context );
+  }
+};
+
+// The Observer
+function ${3:Observer}(){
+  this.${4:Update} = function(){
+    // ...
+  };
+}
+
+]]></content>
+    <tabTrigger><![CDATA[constructor]]></tabTrigger>
+    <scope>source.js</scope>
+    <description>JS observer pattern</description>
+</snippet>
