@@ -127,6 +127,40 @@ Reference:
 - [Object Creation patterns](http://www.jspatterns.com/category/patterns/object-creation/)
 
 
+## Singleton pattern
+
+**trigger**: singleton⇥
+
+With the Singleton pattern there will be only one instance of a constructor
+function. If you try to instantiate another one, the first instance that was
+created at first will be returned.
+
+```javascript
+var singletonName = (function() {
+    'use strict';
+
+    var instance;
+
+    singletonName = function() {
+        if (instance) {
+            return instance;
+        }
+
+        instance = this;
+
+        // your code goes here
+    };
+
+    return singletonName;
+
+}());
+
+```
+
+Reference:
+- [Singleton Pattern - Simples Ideias](http://simplesideias.com.br/design-patterns-no-javascript-singleton)
+
+
 ## Module
 
 **trigger**: module⇥
