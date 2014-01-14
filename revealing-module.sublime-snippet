@@ -1,18 +1,18 @@
 <snippet>
-	<content><![CDATA[
+  <content><![CDATA[
 var ${1:revealingModuleName} = (function() {
-	'use strict';
+  'use strict';
 
-	function ${2:methodName}() {
-		${3}
-	}
+  function ${2:methodName}() {
+    ${3}
+  }
 
-	return {
-		${2:methodName}:${2:methodName}
-	};
+  return {
+    ${2:methodName}:${2:methodName}
+  };
 
 }());]]></content>
-	<tabTrigger><![CDATA[rmodule]]></tabTrigger>
-	<scope>source.js</scope>
-	<description>JS revealing module pattern</description>
+  <tabTrigger><![CDATA[rmodule]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>JS revealing module pattern</description>
 </snippet>

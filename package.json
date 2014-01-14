@@ -1,0 +1,32 @@
+{
+  "name": "js-patterns-sublime-snippets",
+  "version": "0.0.1",
+  "description": "JavaScript Patterns snippets for Sublime Text",
+  "main": "grunt",
+  "dependencies": {
+    "grunt": "~0.4.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-lintspaces": "~0.3.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caiogondim/js-patterns-sublime-snippets.git"
+  },
+  "keywords": [
+    "javascript",
+    "sublime",
+    "text",
+    "snippets"
+  ],
+  "author": "Caio Gondim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiogondim/js-patterns-sublime-snippets/issues"
+  },
+  "homepage": "https://github.com/caiogondim/js-patterns-sublime-snippets"
+}

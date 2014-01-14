@@ -1,27 +1,27 @@
 <snippet>
-	<content><![CDATA[
+  <content><![CDATA[
 var ${1:functionName} = (function() {
-	'use strict';
+  'use strict';
 
-	var funcMemoized = function() {
-		var cacheKey = JSON.stringify(Array.prototype.slice.call(arguments));
-		var result;
+  var funcMemoized = function() {
+    var cacheKey = JSON.stringify(Array.prototype.slice.call(arguments));
+    var result;
 
-		if (!funcMemoized.cache[cacheKey]) {
-				${2:// your expensive computation goes here
-				// to reference the paramaters passed, use arguments[n]
-				// eg.: result = arguments[0] + arguments[1];}
-				funcMemoized.cache[cacheKey] = result;
-		}
+    if (!funcMemoized.cache[cacheKey]) {
+        ${2:// your expensive computation goes here
+        // to reference the paramaters passed, use arguments[n]
+        // eg.: result = arguments[0] + arguments[1];}
+        funcMemoized.cache[cacheKey] = result;
+    }
 
-		return funcMemoized.cache[cacheKey];
-	};
+    return funcMemoized.cache[cacheKey];
+  };
 
-	funcMemoized.cache = {};
+  funcMemoized.cache = {};
 
-	return funcMemoized;
+  return funcMemoized;
 }());]]></content>
-	<tabTrigger><![CDATA[memoize]]></tabTrigger>
-	<scope>source.js</scope>
-	<description>Function with memoization</description>
+  <tabTrigger><![CDATA[memoize]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Function with memoization</description>
 </snippet>

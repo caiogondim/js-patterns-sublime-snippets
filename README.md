@@ -263,7 +263,7 @@ var onResize = (function () {
   var lastExecution = new Date((new Date()).getTime() - timeWindow);
 
   var onResize = function (args) {
-     // your code goes here
+    // your code goes here
   };
 
   return function() {
