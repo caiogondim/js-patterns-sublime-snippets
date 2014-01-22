@@ -1,24 +1,24 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 var ${1:ConstructorName} = (function() {
-  'use strict';
+	'use strict';
 
-  function ${1:ConstructorName}(${2:args}) {
-    // enforces new
-    if (!(this instanceof ${1:ConstructorName})) {
-      return new ${1:ConstructorName}(${2:args});
-    }
-    ${3:// constructor body}
-  }
+	function ${1:ConstructorName}(${2:args}) {
+		// enforces new
+		if (!(this instanceof ${1:ConstructorName})) {
+			return new ${1:ConstructorName}(${2:args});
+		}
+		${3:// constructor body}
+	}
 
-  ${4:${1:ConstructorName}.prototype.${5:methodName} = function(${6:args}) {
-    ${7:// method body}
-  \}};
+	${4:${1:ConstructorName}.prototype.${5:methodName} = function(${6:args}) {
+		${7:// method body}
+	\}};
 
-  return ${1:ConstructorName};
+	return ${1:ConstructorName};
 
 }());]]></content>
-  <tabTrigger><![CDATA[constructor]]></tabTrigger>
-  <scope>source.js</scope>
-  <description>JS constructor pattern</description>
+	<tabTrigger><![CDATA[constructor]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>JS constructor pattern</description>
 </snippet>

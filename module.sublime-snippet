@@ -1,18 +1,18 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 var ${1:moduleName} = (function() {
-  'use strict';
+	'use strict';
 
-  var ${1:moduleName} = {
-    init: {
-      $2
-    }
-  };
+	var ${1:moduleName} = {
+		init: {
+			$2
+		}
+	};
 
-  return ${1:moduleName};
+	return ${1:moduleName};
 
 }());]]></content>
-  <tabTrigger><![CDATA[module]]></tabTrigger>
-  <scope>source.js</scope>
-  <description>JS module pattern</description>
+	<tabTrigger><![CDATA[module]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>JS module pattern</description>
 </snippet>

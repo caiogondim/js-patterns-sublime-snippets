@@ -1,24 +1,24 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 var ${1:name} = (function() {
-    'use strict';
+	'use strict';
 
-    var instance;
+	var instance;
 
-    ${1:name} = function(${2:args}) {
-        if (instance) {
-            return instance;
-        }
+	${1:name} = function(${2:args}) {
+		if (instance) {
+			return instance;
+		}
 
-        instance = this;
+		instance = this;
 
-        ${3:// your code goes here}
-    };
+		${3:// your code goes here}
+	};
 
-    return ${1:name};
+	return ${1:name};
 
 }());]]></content>
-    <tabTrigger><![CDATA[singleton]]></tabTrigger>
-    <scope>source.js</scope>
-    <description>JS singleton pattern</description>
+	<tabTrigger><![CDATA[singleton]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>JS singleton pattern</description>
 </snippet>

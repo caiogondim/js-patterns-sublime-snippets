@@ -1,23 +1,23 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 var ${1:functionName} = (function () {
-  'use strict';
+	'use strict';
 
-  var timeWindow = ${2:500}; // time in ms
-  var lastExecution = new Date((new Date()).getTime() - timeWindow);
+	var timeWindow = ${2:500}; // time in ms
+	var lastExecution = new Date((new Date()).getTime() - timeWindow);
 
-  var ${1:functionName} = function (${3:args}) {
-    ${4: // your code goes here}
-  };
+	var ${1:functionName} = function (${3:args}) {
+		${4: // your code goes here}
+	};
 
-  return function() {
-    if ((lastExecution.getTime() + timeWindow) <= (new Date()).getTime()) {
-      lastExecution = new Date();
-      return ${1:functionName}.apply(this, arguments);
-    }
-  };
+	return function() {
+		if ((lastExecution.getTime() + timeWindow) <= (new Date()).getTime()) {
+			lastExecution = new Date();
+			return ${1:functionName}.apply(this, arguments);
+		}
+	};
 }());]]></content>
-  <tabTrigger><![CDATA[throttle]]></tabTrigger>
-  <scope>source.js</scope>
-  <description>Throttled function</description>
+	<tabTrigger><![CDATA[throttle]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>Throttled function</description>
 </snippet>
