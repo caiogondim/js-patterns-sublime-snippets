@@ -10,7 +10,7 @@ var ${1:functionName} = (function () {
 		${4: // your code goes here}
 	};
 
-	return function() {
+	return function () {
 		if ((lastExecution.getTime() + timeWindow) <= (new Date()).getTime()) {
 			lastExecution = new Date();
 			return ${1:functionName}.apply(this, arguments);

@@ -266,7 +266,7 @@ var onResize = (function () {
     // your code goes here
   };
 
-  return function() {
+  return function () {
     if ((lastExecution.getTime() + timeWindow) <= (new Date()).getTime()) {
       lastExecution = new Date();
       return onResize.apply(this, arguments);
