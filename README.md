@@ -1,9 +1,6 @@
 # JavaScript Patterns snippets [![Build Status](https://secure.travis-ci.org/caiogondim/js-patterns-sublime-snippets.png?branch=master)](https://travis-ci.org/caiogondim/js-patterns-sublime-snippets)
 
-<img
-  src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/assets/js-patterns-logo.png"
-  alt="JS Patterns logo" align="right"
-/>
+<img src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/assets/js-patterns-logo.png" alt="JS Patterns logo" align="right" />
 
 Snippets for [Sublime Text](http://www.sublimetext.com/) with **good solutions
 for regular problems** in JavaScript.
@@ -17,8 +14,8 @@ for regular problems** in JavaScript.
 To install through Package Control, search for **JavaScript Patterns**. If you
 still don't have Package Control in Sublime Text,
 [go get it](http://wbond.net/sublime_packages/package_control/installation).
-If you insist to not install it, you can download the package and put it manually
-inside your Pacakages directory. It should work but will not update
+If you insist to not install it, you can download the package and put it
+manually inside your Pacakages directory. It should work but will not update
 automatically.
 
 
@@ -26,10 +23,7 @@ automatically.
 
 Some JS Patterns snippets in the wild.
 
-<img
-  src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/assets/in-the-wild.gif"
-  alt="In the wild"
-/>
+<img src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/assets/in-the-wild.gif" alt="In the wild" />
 
 
 ## Immediate function
