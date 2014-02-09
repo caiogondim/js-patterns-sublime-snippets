@@ -131,21 +131,21 @@ created at first will be returned.
 
 ```javascript
 var singletonName = (function() {
-    'use strict';
+  'use strict';
 
-    var instance;
+  var instance;
 
-    singletonName = function() {
-        if (instance) {
-            return instance;
-        }
+  singletonName = function() {
+    if (instance) {
+      return instance;
+    }
 
-        instance = this;
+    instance = this;
 
-        // your code goes here
-    };
+    // your code goes here
+  };
 
-    return singletonName;
+  return singletonName;
 
 }());
 
