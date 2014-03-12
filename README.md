@@ -34,7 +34,7 @@ To keep the global scope clean and to use strict mode in a controlled
 enviroment, without triggering it in the global scope.
 
 ```javascript
-;(function () {
+(function () {
     'use strict';
     // closure scope
 }());
