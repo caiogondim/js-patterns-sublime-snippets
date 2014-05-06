@@ -1,9 +1,9 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 var ${1:name} = ${2:data},
-	${3:name} = ${4:data},
-	${5:name} = ${6:data};
+    ${3:name} = ${4:data},
+    ${5:name} = ${6:data};
 ]]></content>
-	<tabTrigger>ivar</tabTrigger>
-	<scope>source.js</scope>
+    <tabTrigger>ivar</tabTrigger>
+    <scope>source.js</scope>
 </snippet>
