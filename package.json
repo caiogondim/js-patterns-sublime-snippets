@@ -1,6 +1,6 @@
 {
   "name": "js-patterns-sublime-snippets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JavaScript Patterns snippets for Sublime Text",
   "main": "grunt",
   "dependencies": {
