@@ -56,7 +56,7 @@ To loop through only in the object's properties, we have to use
 ```javascript
 for (var prop in obj) {
   if (obj.hasOwnProperty(prop)) {
-    obj.prop;
+    obj[prop];
   }
 }
 ```
