@@ -309,15 +309,9 @@ Reference:
 
 ## Support
 
-All the snippets should run in:
-- Chrome
-- Safari
-- Firefox
-- Internet Explorer 8.0+
-- Opera 15+
-- Node.js 0.10+
-
-If you found some error, please open an issue or send a pull request.
+![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png) | ![node.js](https://raw.githubusercontent.com/caiogondim/javascript-server-side-logos/master/nodejs-js-hexagon/greeen-48.png)
+--- | --- | --- | --- | --- | ---
+Latest ✔ | Latest ✔ | 8+ ✔ | Latest ✔ | 6.0+ ✔ | 0.10+
 
 
 ## License
