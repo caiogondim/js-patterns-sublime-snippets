@@ -1,0 +1,9 @@
+<snippet>
+		<content><![CDATA[
+(function(${1:namespace}){
+
+})( window.$1 = window.$1 || {});]]></content>
+	<tabTrigger><![CDATA[namespace]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>namespace pattern</description>
+</snippet>
