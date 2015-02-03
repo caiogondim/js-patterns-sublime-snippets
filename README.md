@@ -343,6 +343,17 @@ Latest ✔ | Latest ✔ | 8+ ✔ | Latest ✔ | 6.0+ ✔
 --- | ---
 0.10+ ✔ | 1.0+ ✔
 
+
+## Contributors
+
+```
+59  Caio Gondim
+01  Arne Schlüter
+01  Breno Calazans
+01  Philip Blyth
+01  gaboesquivel
+```
+
 ## License
 The MIT License (MIT)
 
