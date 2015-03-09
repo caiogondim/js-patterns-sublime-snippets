@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
 ;(function(${1:namespace}) {
+  'use strict';
+
 	$2
 })(window.$1 = window.$1 || {});]]></content>
 	<tabTrigger><![CDATA[namespace]]></tabTrigger>

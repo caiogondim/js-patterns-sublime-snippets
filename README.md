@@ -113,7 +113,6 @@ var ConstructorName = (function() {
   }
 
   return ConstructorName;
-
 }());
 ```
 
@@ -146,7 +145,6 @@ var singletonName = (function() {
   };
 
   return singletonName;
-
 }());
 
 ```
@@ -177,7 +175,6 @@ var moduleName = (function() {
   }
 
   return moduleName;
-
 }());
 ```
 
@@ -260,7 +257,7 @@ var onResize = (function() {
     // your code goes here
   };
 
-  return function () {
+  return function() {
     if ((lastExecution.getTime() + timeWindow) <= (new Date()).getTime()) {
       lastExecution = new Date();
       return onResize.apply(this, arguments);
@@ -319,9 +316,9 @@ scalable namespacing pattern and IIFEs can be used to achieve this quite easily.
 ```javascript
 ;(function(namespace) {
   'use strict';
+
   // your code goes here
   // namespace.method = function(){};
-
 })(window.namespace = window.namespace || {});
 ```
 
