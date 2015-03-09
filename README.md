@@ -23,7 +23,7 @@ automatically.
 
 Some JS Patterns snippets in the wild.
 
-<img src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/assets/in-the-wild.gif" alt="In the wild" />
+<img src="http://cdn1.caiogondim.com/js-patterns-sublime-snippets-preview.gif" alt="Preview" />
 
 
 ## Immediate function
