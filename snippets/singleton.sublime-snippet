@@ -16,7 +16,6 @@ var ${1:name} = (function() {
 	};
 
 	return ${1:name};
-
 }());]]></content>
 	<tabTrigger><![CDATA[singleton]]></tabTrigger>
 	<scope>source.js</scope>

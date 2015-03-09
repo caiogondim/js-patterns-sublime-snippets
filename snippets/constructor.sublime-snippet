@@ -16,7 +16,6 @@ var ${1:ConstructorName} = (function() {
 	\}};
 
 	return ${1:ConstructorName};
-
 }());]]></content>
 	<tabTrigger><![CDATA[constructor]]></tabTrigger>
 	<scope>source.js</scope>

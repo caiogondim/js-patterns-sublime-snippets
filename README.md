@@ -34,7 +34,7 @@ To keep the global scope clean and to use strict mode in a controlled
 enviroment, without triggering it in the global scope.
 
 ```javascript
-;(function () {
+;(function() {
     'use strict';
     // closure scope
 }());
@@ -194,7 +194,7 @@ It declares all the variables and functions in the private scope and returns
 an object with references to what is going to be public.
 
 ```javascript
-var revealingModule = (function(){
+var revealingModule = (function() {
   'use strict';
 
   var privateVar = 'foo';
@@ -250,13 +250,13 @@ call it repeatedly. Useful for some DOM events like the resize event on the
 window.
 
 ```javascript
-var onResize = (function () {
+var onResize = (function() {
   'use strict';
 
   var timeWindow = 200; // time in ms
   var lastExecution = new Date((new Date()).getTime() - timeWindow);
 
-  var onResize = function (args) {
+  var onResize = function(args) {
     // your code goes here
   };
 
@@ -281,13 +281,13 @@ after the last interaction, like an autocomplete or a double-click in a submit
 button.
 
 ```javascript
-var autocomplete = (function () {
+var autocomplete = (function() {
   'use strict';
 
   var timeWindow = 500; // time in ms
   var timeout;
 
-  var autocomplete = function (arg1, arg2) {
+  var autocomplete = function(arg1, arg2) {
     // your code goes here
   };
 
@@ -295,7 +295,7 @@ var autocomplete = (function () {
     var context = this;
     var args = arguments;
     clearTimeout(timeout);
-    timeout = setTimeout(function(){
+    timeout = setTimeout(function() {
       autocomplete.apply(context, args);
     }, timeWindow);
   };
@@ -317,13 +317,13 @@ scalable namespacing pattern and IIFEs can be used to achieve this quite easily.
 
 
 ```javascript
-(function(namespace){
+;(function(namespace) {
   'use strict';
   // your code goes here
   // namespace.method = function(){};
 
 })(window.namespace = window.namespace || {});
-````
+```
 
 Reference:
 - [Addy Osmani - Essential JS Namespacing](http://addyosmani.com/blog/essential-js-namespacing/)

@@ -10,7 +10,6 @@ var ${1:revealingModuleName} = (function() {
 	return {
 		${2:methodName}:${2:methodName}
 	};
-
 }());]]></content>
 	<tabTrigger><![CDATA[rmodule]]></tabTrigger>
 	<scope>source.js</scope>

@@ -1,16 +1,16 @@
 <snippet>
 	<content><![CDATA[
-var ${1:functionName} = (function () {
+var ${1:functionName} = (function() {
 	'use strict';
 
 	var timeWindow = ${2:500}; // time in ms
 	var lastExecution = new Date((new Date()).getTime() - timeWindow);
 
-	var ${1:functionName} = function (${3:args}) {
+	var ${1:functionName} = function(${3:args}) {
 		${4: // your code goes here}
 	};
 
-	return function () {
+	return function() {
 		if ((lastExecution.getTime() + timeWindow) <= (new Date()).getTime()) {
 			lastExecution = new Date();
 			return ${1:functionName}.apply(this, arguments);
