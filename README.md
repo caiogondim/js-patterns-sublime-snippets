@@ -66,6 +66,19 @@ Reference:
 - [The Essentials of Writing High Quality JavaScript](http://net.tutsplus.com/tutorials/javascript-ajax/the-essentials-of-writing-high-quality-javascript/)
 
 
+## Object.keys loop
+
+**trigger**: okl⇥
+
+If your enviroment supports that method, prefer this over `for in`.
+
+```javascript
+Objects.keys(obj).forEach(function(key) {
+  // inside loop
+});
+```
+
+
 ## Improved for loop
 
 **trigger:** ifor⇥
