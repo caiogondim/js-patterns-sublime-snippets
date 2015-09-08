@@ -225,6 +225,47 @@ var revealingModule = (function() {
 }());
 ```
 
+## AMD
+
+**trigger**: amdmod⇥
+
+> The Asynchronous Module Definition (AMD) API specifies a mechanism for defining
+> modules such that the module and its dependencies can be asynchronously loaded.
+> This is particularly well suited for the browser environment where synchronous
+> loading of modules incurs performance, usability, debugging, and cross-domain
+> access problems.
+
+[AMD API](https://github.com/amdjs/amdjs-api/wiki/AMD)
+
+```js
+define([
+    module1
+], function (module1) {
+
+    // static private var
+    var _a;
+
+    var myModule = function () {
+
+        // public var
+        this.b = null;
+
+        // pseudo-protected var
+        this._c = null;
+
+    };
+
+    myModule.privateMethod = function (args) {
+    };
+
+    myModule.prototype.publicMethod = function (args) {
+    };
+
+    return myModule;
+});
+```
+
+
 ## Memoization
 
 Caches the return value of function. Useful for repetitive calls for a
