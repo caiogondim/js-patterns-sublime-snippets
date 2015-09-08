@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+define([
+    "${1:requiredModule}"
+], function (${2:requiredModuleName}) {
+
+    // static private var
+    var _a;
+
+    var ${3:myModule} = function () {
+
+        // public var
+        this.b = null;
+
+        // pseudo-protected var
+        this._c = null;
+
+    };
+
+    ${3:myModule}.${4:privateMethod} = function (args) {
+    };
+
+    ${3:myModule}.prototype.${5:publicMethod} = function (args) {
+    };
+
+    return ${3:myModule};
+});]]></content>
+    <tabTrigger><![CDATA[amdmod]]></tabTrigger>
+    <scope>source.js</scope>
+    <description>JS AMD module pattern</description>
+</snippet>
