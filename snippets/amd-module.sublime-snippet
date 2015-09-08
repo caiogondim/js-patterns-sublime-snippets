@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 define([
-    "${1:requiredModule}"
-], function (${2:requiredModuleName}) {
+    "${1:requiredModules}"
+], function (${2:modules}) {
 
     // static private var
     var _a;
