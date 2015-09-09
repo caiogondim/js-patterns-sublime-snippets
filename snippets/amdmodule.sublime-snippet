@@ -6,7 +6,7 @@ define([
     "use strict";
 
     // static private property
-    ${3:myModule}.a;
+    ${3:myModule}.A;
 
     var ${3:myModule} = function () {
 
