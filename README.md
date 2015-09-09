@@ -235,8 +235,6 @@ var revealingModule = (function() {
 > loading of modules incurs performance, usability, debugging, and cross-domain
 > access problems.
 
-[AMD API](https://github.com/amdjs/amdjs-api/wiki/AMD)
-
 ```js
 define([
     module1
@@ -265,6 +263,8 @@ define([
 });
 ```
 
+Reference:
+- [AMD API](https://github.com/amdjs/amdjs-api/wiki/AMD)
 
 ## Memoization
 
