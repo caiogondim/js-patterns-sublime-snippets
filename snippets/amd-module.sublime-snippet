@@ -2,13 +2,13 @@
     <content><![CDATA[
 define([
     "${1:requiredModules}"
-], function (${2:modules}) {
+], function(${2:modules}) {
     "use strict";
 
     // static private property
     ${3:myModule}.A;
 
-    var ${3:myModule} = function () {
+    var ${3:myModule} = function() {
 
         // public var
         this.b = null;
@@ -21,10 +21,10 @@ define([
     function ${4:privateMethod} (args) {
     };
 
-    ${3:myModule}.${5:staticMethod} = function (args) {
+    ${3:myModule}.${5:staticMethod} = function(args) {
     };
 
-    ${3:myModule}.prototype.${6:publicMethod} = function (args) {
+    ${3:myModule}.prototype.${6:publicMethod} = function(args) {
     };
 
     return ${3:myModule};
