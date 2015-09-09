@@ -24,7 +24,6 @@ define([
     ${3:myModule}.${5:staticMethod} = function (args) {
     };
 
-
     ${3:myModule}.prototype.${6:publicMethod} = function (args) {
     };
 
