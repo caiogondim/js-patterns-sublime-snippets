@@ -242,7 +242,7 @@ define([
     "use strict";
 
     // static private property
-    myModule.A;
+    myModule.prop;
 
     var myModule = function() {
 
@@ -254,7 +254,7 @@ define([
 
     };
 
-    function privateMethod (args) {
+    function privateMethod(args) {
     };
 
     myModule.staticMethod = function(args) {

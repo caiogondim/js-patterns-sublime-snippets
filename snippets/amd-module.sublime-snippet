@@ -6,7 +6,7 @@ define([
     "use strict";
 
     // static private property
-    ${3:myModule}.A;
+    ${3:myModule}.prop;
 
     var ${3:myModule} = function() {
 
@@ -18,7 +18,7 @@ define([
 
     };
 
-    function ${4:privateMethod} (args) {
+    function ${4:privateMethod}(args) {
     };
 
     ${3:myModule}.${5:staticMethod} = function(args) {
