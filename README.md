@@ -237,13 +237,14 @@ var revealingModule = (function() {
 
 ```js
 define([
-    module1
-], function (module1) {
+    "module1"
+], function(module1) {
+    "use strict";
 
-    // static private var
-    var _a;
+    // static private property
+    myModule.A;
 
-    var myModule = function () {
+    var myModule = function() {
 
         // public var
         this.b = null;
@@ -253,10 +254,13 @@ define([
 
     };
 
-    myModule.privateMethod = function (args) {
+    function privateMethod (args) {
     };
 
-    myModule.prototype.publicMethod = function (args) {
+    myModule.staticMethod = function(args) {
+    };
+
+    myModule.prototype.publicMethod = function(args) {
     };
 
     return myModule;
