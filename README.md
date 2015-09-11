@@ -241,7 +241,7 @@ define([
 ], function(module1) {
     "use strict";
 
-    // static private property
+    // static public property
     myModule.prop;
 
     var myModule = function() {

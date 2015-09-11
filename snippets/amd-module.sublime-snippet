@@ -5,7 +5,7 @@ define([
 ], function(${2:modules}) {
     "use strict";
 
-    // static private property
+    // static public property
     ${3:myModule}.prop;
 
     var ${3:myModule} = function() {
