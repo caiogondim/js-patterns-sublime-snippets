@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+var ${1:functionName} = (function() {
+  var didRun = false;
+
+  // This function will be executed only once, no matter how many times
+  // it is called.
+  function ${1:functionName}() {
+    ${2:// Your code goes here}
+  }
+
+  return function() {
+    if (didRun) {
+      return;
+    }
+
+    didRun = true;
+
+    return foo.apply(this, arguments);
+  }
+})();]]></content>
+	<tabTrigger><![CDATA[once]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>Execute a function only once.</description>
+</snippet>

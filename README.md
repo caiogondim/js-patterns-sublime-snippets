@@ -383,6 +383,32 @@ scalable namespacing pattern and IIFEs can be used to achieve this quite easily.
 Reference:
 - [Addy Osmani - Essential JS Namespacing](http://addyosmani.com/blog/essential-js-namespacing/)
 
+## Once
+**trigger**: once⇥
+
+Creates a function that can only be executed one time.
+
+```javascript
+var once = (function() {
+  var didRun = false;
+
+  // This function will be executed only once, no matter how many times
+  // it is called.
+  function once() {
+    // ...
+  }
+
+  return function() {
+    if (didRun) {
+      return;
+    }
+
+    didRun = true;
+
+    return foo.apply(this, arguments);
+  }
+})();
+```
 
 ## Support
 
