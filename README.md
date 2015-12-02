@@ -435,6 +435,14 @@ Latest ✔ | Latest ✔ | 8+ ✔ | Latest ✔ | 6.0+ ✔
 01  gaboesquivel
 ```
 
+## Donating
+
+If you found this project useful and are willing to donate, transfer some
+bitcoins to `1BqqKiZA8Tq43CdukdBEwCdDD42jxuX9UY` or through the
+[URL](https://www.coinbase.com/caiogondim) https://www.coinbase.com/caiogondim
+
+Or via [PayPal.me](https://www.paypal.me/caiogondim) https://www.paypal.me/caiogondim.
+
 ## License
 The MIT License (MIT)
 
