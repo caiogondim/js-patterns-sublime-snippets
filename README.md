@@ -1,4 +1,4 @@
-# JavaScript Patterns snippets [![Build Status](https://secure.travis-ci.org/caiogondim/js-patterns-sublime-snippets.png?branch=master)](https://travis-ci.org/caiogondim/js-patterns-sublime-snippets)
+# JavaScript Patterns snippets <img alt="Build Status" src="https://secure.travis-ci.org/caiogondim/js-patterns-sublime-snippets.png?branch=master"> <img alt="Downloads per month" src="https://img.shields.io/packagecontrol/dm/JavaScript%20Patterns.svg">
 
 <img src="https://raw.github.com/caiogondim/js-patterns-sublime-snippets/assets/js-patterns-logo.png" alt="JS Patterns logo" align="right" />
 
