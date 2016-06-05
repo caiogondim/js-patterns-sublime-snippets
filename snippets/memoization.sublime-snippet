@@ -7,7 +7,7 @@ var ${1:functionName} = (function() {
 		var cacheKey = JSON.stringify(Array.prototype.slice.call(arguments));
 		var result;
 
-		if (!funcMemoized.cache[cacheKey]) {
+		if (!funcMemoized.cache.hasOwnProperty(cacheKey)) {
 				${2:// your expensive computation goes here
 				// to reference the paramaters passed, use arguments[n]
 				// eg.: result = arguments[0] + arguments[1];}

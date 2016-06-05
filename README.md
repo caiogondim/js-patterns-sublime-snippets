@@ -283,7 +283,7 @@ var expensiveFunction = (function() {
     var cacheKey = JSON.stringify(Array.prototype.slice.call(arguments));
     var result;
 
-    if (!funcMemoized.cache[cacheKey]) {
+    if (!funcMemoized.cache.hasOwnProperty(cacheKey)) {
         // your expensive computation goes here
 
         funcMemoized.cache[cacheKey] = result;
