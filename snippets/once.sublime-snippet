@@ -16,7 +16,7 @@ var ${1:functionName} = (function() {
 
     didRun = true;
 
-    return foo.apply(this, arguments);
+    return ${1:functionName}.apply(this, arguments);
   }
 })();]]></content>
 	<tabTrigger><![CDATA[once]]></tabTrigger>
