@@ -4,14 +4,14 @@ var ${1:functionName} = (function() {
 	'use strict';
 
 	var timeWindow = ${2:500}; // time in ms
-	var lastExecution = new Date((new Date()).getTime() - timeWindow);
+	var lastExecution = new Date(+new Date - timeWindow);
 
 	var ${1:functionName} = function(${3:args}) {
 		${4: // your code goes here}
 	};
 
 	return function() {
-		if ((lastExecution.getTime() + timeWindow) <= (new Date()).getTime()) {
+		if ((+lastExecution + timeWindow) <= (+new Date) {
 			lastExecution = new Date();
 			return ${1:functionName}.apply(this, arguments);
 		}
