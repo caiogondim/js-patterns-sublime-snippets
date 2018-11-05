@@ -54,7 +54,7 @@ To loop through only in the object's properties, we have to use
 `.hasOwnProperty('propertyName')`. Like below.
 
 ```javascript
-for (prop in obj) {
+for (var prop in obj) {
   if ({}.hasOwnProperty.call(obj, prop)) {
     obj[prop];
   }

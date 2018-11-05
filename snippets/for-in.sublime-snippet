@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-for (${1:prop} in ${2:obj}) {
+for (var ${1:prop} in ${2:obj}) {
 	if ({}.hasOwnProperty.call(${2:obj}, ${1:prop})) {
 		${3:${2:obj}[${1:prop}]$0;}
 	}
