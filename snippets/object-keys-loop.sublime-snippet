@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-Objects.keys(${1:obj}).forEach(function(key) {
+Object.keys(${1:obj}).forEach(function(key) {
 	${2:$1}
 })]]></content>
 	<tabTrigger><![CDATA[okl]]></tabTrigger>
