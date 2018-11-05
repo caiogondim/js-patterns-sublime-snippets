@@ -73,7 +73,7 @@ Reference:
 If your enviroment supports that method, prefer this over `for in`.
 
 ```javascript
-Objects.keys(obj).forEach(function(key) {
+Object.keys(obj).forEach(function(key) {
   // inside loop
 });
 ```
